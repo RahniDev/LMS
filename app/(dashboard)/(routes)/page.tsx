@@ -1,10 +1,10 @@
-import { Button } from '@/components/ui/button'
+import { UserButton } from '@clerk/nextjs'
 
 const Home = () => {
   return (
-    <>
-      <p>Protected Page</p>
-    </>
+    <div>
+      <UserButton />
+      </div>
   );
 }
 
