@@ -18,5 +18,3 @@ export const MobileSidebar = () => {
         </Sheet>
    );
 }
-
-export default MobileSidebar;
